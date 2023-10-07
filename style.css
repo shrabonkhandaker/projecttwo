@@ -1,0 +1,132 @@
+.shortinfo{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua;
+    border: 4px solid red; */
+   
+}
+.logo{
+    margin-left: 40px;
+}
+.name {
+    margin-left: 90px;
+    padding: 40px;
+}
+.logo img{
+    width: 220px;
+}
+/* second */
+.headline{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    margin-top: -100px;
+}
+@keyframes admission {
+ 0%{
+    left: 10px;
+ }
+ 100%{
+    left: 800px;
+ }
+}
+.headerpart{
+ 
+ position: absolute;
+ animation: admission 7s ease-in-out  0.2s infinite alternate ;
+ 
+}
+/*  */
+
+.respectableperson{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 900px;
+    height: 650px;
+    box-shadow: 14px 23px 23px gray;
+    justify-content: center;
+
+}
+.principle{
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    
+}
+.principle img{
+    width: 100%;
+}
+.principle h1{
+    font-size: 18px;
+}
+.principle p{
+    font-size:16px;
+}
+.principle:hover{
+    background-color: aquamarine;
+}
+.secondpage{
+    height: 100vh;
+}
+.admission{
+ background-color: tomato;
+ width: 400px;
+ font-size: 30px;
+ border-radius: 19px;
+ text-align: center;
+ align-items: center;
+ margin:70px auto;
+ 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.admission a{
+    text-decoration: none;
+    color: azure;
+}
+.ouroldcampus{
+    display: flex;
+    width: 800px;
+   position: relative;
+   margin: auto;
+    
+}
+.ouroldcampus:hover{
+ border: 1px solid aqua;
+
+}
+.write{
+   margin: 10px 200px;
+    
+}
+.department ul{
+    display: grid;
+  
+    grid-template-columns: repeat(5, 1fr);
+}
+.department ul li{
+    list-style: none;
+   background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+.department ul li:hover{
+    background-color: tomato;
+}
+.btn2{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    width: 180px;
+   
+}
+.btn2:hover{
+    background-color: tomato;
+}
+
